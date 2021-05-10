@@ -20,9 +20,7 @@ from core.utils import *
 from torch.utils import data as data_utils
 from core.models.networks import NetworkInNetwork
 
-# Auxiliary functions useful for GEM's inner optimization.
-
-
+# Utility Functions taken from https://github.com/facebookresearch/GradientEpisodicMemory
 
 def store_grad(pp, grads, grad_dims, tid):
     """
@@ -84,6 +82,7 @@ def project2cone2(gradient, memories, margin=0.5, eps=1e-3):
     gradient.copy_(torch.Tensor(x).view(-1, 1))
 
 
+# Primary Network Class modified from https://github.com/facebookresearch/GradientEpisodicMemory
 class Net(nn.Module):
     def __init__(self,
                  n_inputs,
