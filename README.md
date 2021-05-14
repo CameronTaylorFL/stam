@@ -83,4 +83,7 @@ If you found our work useful for your research, please cite our work:
              journal={arXiv preprint arXiv:1904.02021},
              year={2021}
      }
+
 [James Smith]: https://jamessealesmith.github.io/
+[Cameron Taylor]: https://www.linkedin.com/in/cameron-taylor95/
+[Constantine Dovrolis]: https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/
