@@ -1,7 +1,7 @@
 ## Unsupervised Progressive Learning and the STAM Architecture
 PyTorch code for the IJCAI'21 paper:\
 **Unsupervised Progressive Learning and the STAM Architecture**\
-**_[James Smith]_**, **Cameron Taylor**, Seth Baer, Constantine Dovrolis\
+**_[James Smith]_**, **_[Cameron Taylor]_**, Seth Baer, [Constantine Dovrolis]\
 International Joint Conference on Artificial Intelligence (IJCAI), 2021\
 [[arXiv]]
 <p align="center">
@@ -77,13 +77,15 @@ MIT License
 This work is supported by the Lifelong Learning Machines (L2M) program of DARPA/MTO: Cooperative Agreement HR0011-18-2-0019.
 ## Citation
 If you found our work useful for your research, please cite our work:
-    @article{smith2021unsupervised,
+
+        @article{smith2021unsupervised,
              title={Unsupervised progressive learning and the {STAM} architecture},
              author={Smith, James and Taylor, Cameron  and Baer, Seth and Dovrolis, Constantine},
              journal={arXiv preprint arXiv:1904.02021},
              year={2021}
-     }
+        }
 
 [James Smith]: https://jamessealesmith.github.io/
 [Cameron Taylor]: https://www.linkedin.com/in/cameron-taylor95/
 [Constantine Dovrolis]: https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/
+[arXiv]: https://arxiv.org/abs/1904.02021
