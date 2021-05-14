@@ -82,7 +82,8 @@ If you found our work useful for your research, please cite our work:
              title={Unsupervised progressive learning and the {STAM} architecture},
              author={Smith, James and Taylor, Cameron  and Baer, Seth and Dovrolis, Constantine},
              journal={arXiv preprint arXiv:1904.02021},
-             year={2021}
+             year={2021},
+             note={Accepted for publication at IJCAI 2021}
         }
 
 [James Smith]: https://jamessealesmith.github.io/
