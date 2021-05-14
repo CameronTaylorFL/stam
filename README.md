@@ -1,6 +1,15 @@
-# Unsupervised Progressive Learning and the STAM Architecture
+## Unsupervised Progressive Learning and the STAM Architecture
+PyTorch code for the IJCAI'21 paper:\
+**Unsupervised Progressive Learning and the STAM Architecture**\
+**_[James Smith]_**, **Cameron Taylor**, Seth Baer, Constantine Dovrolis\
+International Joint Conference on Artificial Intelligence (IJCAI), 2021\
+[[arXiv]]
+<p align="center">
+<img src="upl3.png" width="100%">
+</p>
+## Abstract
+We first pose the Unsupervised Progressive Learning (UPL) problem: an online representation learning problem in which the learner observes a non-stationary and unlabeled data stream, learning a growing number of features that persist over time even though the data is not stored or replayed. To solve the UPL problem we propose the Self-Taught Associative Memory (STAM) architecture. Layered hierarchies of STAM modules learn based on a combination of online clustering, novelty detection, forgetting outliers, and storing only prototypical features rather than specific examples. We evaluate STAM representations using clustering and classification tasks. While there are no existing learning scenarios that are directly comparable to UPL, we compare the STAM architecture with two recent continual learning models, Memory Aware Synapses (MAS) and Gradient Episodic Memories (GEM), after adapting them in the UPL setting. 
 
-This repository is the official implementation of [Unsupervised Progressive Learning and the STAM Architecture]
 
 ## Requirements
 Intended for Ubuntu 18.04 and Python3-dev
@@ -62,3 +71,15 @@ Our model achieves the following performance on :
 
 ## Contributing
 MIT License
+
+## Acknowledgement
+This work is supported by the Lifelong Learning Machines (L2M) program of DARPA/MTO: Cooperative Agreement HR0011-18-2-0019.
+## Citation
+If you found our work useful for your research, please cite our work:
+    @article{smith2021unsupervised,
+             title={Unsupervised progressive learning and the {STAM} architecture},
+             author={Smith, James and Taylor, Cameron  and Baer, Seth and Dovrolis, Constantine},
+             journal={arXiv preprint arXiv:1904.02021},
+             year={2021}
+     }
+[James Smith]: https://jamessealesmith.github.io/
